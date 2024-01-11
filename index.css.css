@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+header{
+    background-color:rgb(43, 93, 99);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 12px;
+   
+} 
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+header a{
+    color: white;
+    text-size: medium;
+}
+.logo{
+    font-size:25px;
+}
+a{
+    text-decoration: none;
+    
+} 
+.menu li{
+    padding: 10px;
+   
+}
+.link li{
+    padding: 10px;
+}
+.main{
+display: flex;
+}
+article{
+    padding: 10px;
+}
+.About img{
+    background-color: aqua;
+    width:300px;
+    height: 300px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.paira p{
+    margin-right: 50px;
+}
+.paira h2 p{
+    /* margin-bottom: 200px; */
+}
+.paira h2{
+    color: crimson;
+}
+.back{
+    background-color: powderblue;
+    margin-top: 10px;
+}
+.about-center{
+    text-align: center;
+    /* margin: 50px; */
+}
+.about-center h1{
+    margin:20px;
+}
+.about-center h4{
+    color: crimson;
+    padding: 0px;
+}
+section{
+    background-color: aqua;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height:auto;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+.contact
+{
+    text-align: center;
+}
+.text-tittle h3 p{
+    
+}
+}
+.text-tittle{
+    display: flex;
+    
+.text{
+margin-left: 70px;
+}
+.text-1{
+    margin-right: 70px;
+}
+.get{
+    color:crimson;
+}
+input{
+    width: 500px;
+    height: 35px;
+}
+
+.button a{
+    background-color:crimson;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color:#eee;
+    padding: 8px 13px;
+    display: block;
+    width: 150px;
+    margin-bottom: 50px;
+    
+}
+.button:hover a{
+    color: gray;
+    background-color: transparent;
+    border: 2px solid gray ;
+  }
+}
+.about-1{
+    display: flex;
+    align-items: center;
+}
+aside{
+    padding: 10px;
+    flex:0 0 20vw;
+    background-color: beige;
+}
+aside ul{
+    list-style: none;
+    padding: 0px;
+}
+aside ul a{
+    color: rgb(89, 113, 41);
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid gray ;
+}
+aside img{
+    width: 100%;
+}
+.services-contianer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-box{
+    border: 1px solid #eee;
+    flex-basis: 32%;
+    max-width: 370px;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.service-box h3{
+ margin: 5px 0 10px;
+}
+.service-box p{
+    margin:0 0 10px ;
+}
+.call{
+    align-self: flex-start;
+    margin-top: auto;
+}
+.call a{
+    background-color: gray;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: wheat;
+    padding: 8px 13px;
+    display: block;
+}
+.call a:hover{
+    color: gray;
+    background-color: transparent;
+    border: 2px solid gray ;
+}
+.service-box img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+footer{
+    background-color:rgb(43, 93, 99);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+@media screen and (max-width:850px){
+    .service-box{
+        flex-basis: 48%;
+    }
+  aside{
+    flex:0 0 30vw;
+  }
+}
+@media screen and (max-width:600px){
+   header{
+    flex-direction: column;
+   }
+   .logo{
+    order: -1;
+   }
+   .main{
+    flex-direction: column;
+   }
+   article{
+    order: -1;
+   }
+   .services-contianer{
+    flex-direction: column;
+    align-items: center;
+   }
+   h2{
+    text-align: center;
+   }
+}
